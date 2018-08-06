@@ -1,0 +1,68 @@
+svg {
+	padding:0px; 
+	margin: 0px; 
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+	max-width: 360px;
+}
+
+.App-header {
+  
+  padding: 20px;
+
+  /*
+  background-image: url("/img/bg/abstract-art-artistic-1212408.jpg");
+  background-image: url("/img/bg/adventure-alps-climbing-551853.jpg");
+  background-image: url("/img/bg/aerial-shot-beach-daylight-1158579.jpg");
+  background-image: url("/img/bg/aerial-shot-bird-s-eye-view-fog-887871.jpg");
+  background-image: url("/img/bg/aerial-view-beautiful-bird-s-eye-view-1206927.jpg");
+  background-image: url("/img/bg/beach-coastline-daylight-1204157.jpg");
+  background-image: url("/img/bg/beach-daylight-high-angle-shot-941913.jpg");
+  background-image: url("/img/bg/beach-idyllic-island-690303.jpg");
+  background-image: url("/img/bg/calamity-desktop-wallpaper-dolomites-736166.jpg");
+  background-image: url("/img/bg/cloud-landscape-mountain-1036371.jpg");
+  background-image: url("/img/bg/clouds-cloudy-cold-167699.jpg");
+  background-image: url("/img/bg/green-leaves-plant-1072179.jpg");
+  */
+  background-image: url("/img/bg/bright/green-leaves-plant-1072179-inv.jpg");
+
+  background-size: cover; 
+  background-position: center; 
+  /*
+  background-position-y: bottom;
+  background-position-x: center; 
+  */
+  height: 260px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.HungrySeparator {
+  position: absolute; 
+  left: 0; 
+}
+
+.page {
+	min-height: 200px; 
+}
+
+.spacer {
+	height: 90px; 
+}
+
+#projects {
+  background: linear-gradient(to bottom, #f8f0e6, #295278);
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
